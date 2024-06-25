@@ -11,6 +11,7 @@ jobs:
   sync:
     name: Sync
     runs-on: ubuntu-latest
+    environment: WX主号环境
     env:
       NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
       NOTION_PAGE: ${{ secrets.NOTION_PAGE }}
